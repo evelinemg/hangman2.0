@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href='http://fonts.googleapis.com/css?family=Sancreek' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title >Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id='traco'>
+
+    </div>
+
+    <img id="forca" src="img/fo.png" />
+    <div id='letra'>
+
+    </div>
+
+
+
+
+    <div style="text-align:center; margin: 50px 0px;">
+      <h1 class="western">Jogo da Forca</h1>
+
+      <div id=buttons>
+      <button class="btn" id="iniciar-jogo">INICIAR JOGO</button>
+      <button type="button"  id="reload" onClick="window.location.reload();">NOVO JOGO</button>
+    </div>
+    </div>
+
+    <!---<div style="text-align:center">
+      <input class="text-input" type="text" id="input-nova-palavra" placeholder="Digite uma letra ou palavra">
+      <button class="btn" id="nova-palavra">adicionar</button>
+    </div>--->
+    <div class="container">
+         <div id='keyboard'class="wrapper">
+            <div class="keys">
+               <input id='Q' type="button" value="Q">
+               <input id='W' type="button" value="W">
+               <input id='E'type="button" value="E">
+               <input id='R'type="button"  value="R">
+               <input id='T'type="button" value="T">
+               <input id='Y'type="button" value="Y">
+               <input id='U'type="button" value="U">
+               <input id='I'type="button" value="I">
+               <input id='O'type="button" value="O">
+               <input id='P'type="button" value="P">
+            </div>
+            <div class="keys">
+               <input id='A'type="button"  value="A">
+               <input id='S'type="button" value="S">
+               <input id='D'type="button" value="D">
+               <input id='F'type="button" value="F">
+               <input id='G'type="button" value="G">
+               <input id='H'type="button" value="H">
+               <input id='J'type="button" value="J">
+               <input id='K'type="button" value="K">
+               <input id='L'type="button" value="L">
+            </div>
+            <div class="keys">
+               <input id='Z'type="button" value="Z">
+               <input id='X'type="button" value="X">
+               <input id='C'type="button" value="C">
+               <input id='V'type="button" value="V">
+               <input id='B'type="button" value="B">
+               <input id='N'type="button" value="N">
+               <input id='M'type="button" value="M">
+            </div>
+         </div>
+      </div>
+
+
+
+
+
+
+
+    <script  src="palavras.js"></script>
+    <script  src="main.js"></script>
+    <script type="text/javascript" src="desenha.js"></script>
+    <script type="text/javascript" src="forca.js"></script>
+  </body>
+</html>
