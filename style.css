@@ -168,6 +168,7 @@ title {
 }
 .western {
     color: #c31a09;
+    font-family:"Sancreek";
     font: 120px/1 Sancreek, serif;
     position: relative;
     text-shadow: -5px 5px 0 #111;
