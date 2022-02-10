@@ -102,7 +102,7 @@ canvas {
   width: 50%;
   position: absolute;
   right: -1.04vw;
-  bottom: 5.21vw;
+  bottom: 1.21vw;
 }
 
 .wrapper .keys{
@@ -154,13 +154,29 @@ canvas {
   left: 10.41vw;
   width: 26.04vw;
 }
-html {
-  background: url(img/bgpng.png) no-repeat center center fixed; 
+html{
+
+background-image: url(img/bgpng1.png);
+
+
+background-position: center center;
+
+
+background-repeat: no-repeat;
+
+
+background-attachment: fixed;
+
+
+background-size: 100% 100%;
+}
+/*html {
+  background: url(img/bgpng.png) 70% no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-}
+}*/
 #traco{
   margin-left: auto;
   margin-right: auto;
