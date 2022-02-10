@@ -169,6 +169,7 @@ background-attachment: fixed;
 
 
 background-size: 100% 100%;
+ overflow-x: hidden 
 }
 /*html {
   background: url(img/bgpng.png) 70% no-repeat center center fixed;
