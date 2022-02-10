@@ -33,7 +33,7 @@ function addLetra(letra, x, y){
 function addLetrasPosicao(letra,index){
   for(var i =0;i<index.length;i++){
     x=42.5-(index[i]*3.24);
-    addLetra(letra, x,27.9);
+    addLetra(letra, x,21.9);
   }
 }
 function desenhaMan(p){
