@@ -13,7 +13,7 @@ function adicionaLinha(x, y){
 
 function addNumeroLinhas(espacos){
   var x=42;
-  var y = 21.9;
+  var y = 17.9;
   for(var i=0;i<espacos;i++){
     adicionaLinha(x, y);
     x=x-3.24;
@@ -33,10 +33,11 @@ function addLetra(letra, x, y){
 function addLetrasPosicao(letra,index){
   for(var i =0;i<index.length;i++){
     x=42.5-(index[i]*3.24);
-    addLetra(letra, x,21.9);
+    addLetra(letra, x,17.9);
   }
 }
 function desenhaMan(p){
+  console.log(p)
   if(p==0){
     document.getElementById("forca").src="img/fo1.png";
 
@@ -44,16 +45,16 @@ function desenhaMan(p){
   else if(p==1){
     document.getElementById("forca").src="img/fo2.png";
   }
-  else if(p==3){
+  else if(p==2){
     document.getElementById("forca").src="img/fo3.png";
   }
-  else if(p==4){
+  else if(p==3){
     document.getElementById("forca").src="img/fo4.png";
   }
-  else if(p==5){
+  else if(p==4){
     document.getElementById("forca").src="img/fo5.png";
   }
-  else if(p==6){
+  else if(p==5){
     document.getElementById("forca").src="img/fo6.png";
   }
 
@@ -62,7 +63,7 @@ function venceu(){
   var elem=document.createElement("h1");
   elem.innerHTML="Você venceu!";
   elem.style.position="absolute";
-  elem.style.top="24.875vw";
+  elem.style.top="22.875vw";
   elem.style.left="25vw";
   elem.style.fontSize= " 2.6vw";
   var divText=document.getElementById('letra');
