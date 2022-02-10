@@ -155,10 +155,11 @@ canvas {
   width: 26.04vw;
 }
 html {
-  background: url(img/bgpng.png) no-repeat center center ;
-  background-size:cover;
-  height: 60%;
-  overflow: hidden;
+  background: url(img/bgpng.png) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 #traco{
   margin-left: auto;
